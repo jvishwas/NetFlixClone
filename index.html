@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix- Watch TV Shows OR Series</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">
+            <h1>Netflix</h1>
+        </div>
+        <div class="account-box">
+            <select name="English" id="language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <a href="./Sign_In.html" target="_self"><button>Sign In</button></a>
+        </div>
+        </nav>
+        <div class="header-content-box">
+            <div class="content-box-item">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="search-box">
+                <input type="email" placeholder="email address" id="email-inp" />
+                <input type="submit" value="Get Started  >" id="btn" />
+            </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Enjoy on your Tv section-->
+    <div class="tv-section style">
+        <div class="tv-content style-box">
+            <h1>Enjoy on your TV.</h1>
+          <p>
+            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+          </p>  
+        </div>
+        <div class="tv-box">
+            <!-- <img src="./img/tv.png" alt=""> -->
+            <div class="tv-screen">
+            <video autoplay muted loop >
+                <source src="./vedios/rr.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+    </div>
+    <!-- Download and Watch Offline show -->
+    <div class="offline-box style">
+        <div class="offline-poster style-box">
+            <img src="./img/mobile-0819.jpg" alt="">
+            <div class="download-box">
+                <img src="./img/marvel2-action.gif" />
+                <h3>Marvel</h3>
+                <p id="down-para">Downloading...</p>
+            </div>
+        </div>
+        <div class="offline-content style-box">
+           <h1> Download your shows to watch offline.</h1>
+           <p>Save your favourites easily and always have something to watch.</p>
+
+        </div>
+    </div>
+    <!-- Watching anywhere section -->
+    <div class="watching style">
+        <div class="watching-content style-box">
+            <h1>Watch everywhere.</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div class="watching-poster style-box">
+            <div class="watching-screen" id="screen">
+                <video  loop autoplay muted>
+                    <source src="./vedios/Netflix_dailogs.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <!-- Kids section -->
+    <div class="kids style">
+        <div class="kids-poster style-box">
+            <img src="./img/kids.png" alt="">
+            
+        </div>
+        <div class="kids-content style-box">
+            <h1>Create profiles for children.</h1>
+                <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </div>
+    </div>
+    <!-- Frequently Asked Questions -->
+    <div class="question">
+        <div class="question-ask">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+        <div class="question-box">
+            <div class="question-item">
+                <div class="wrap">
+                    <h1>what is Netflix?</h1>
+                    <div class="icon-div" id="show_1">
+                         +
+                    </div>
+                 </div>
+                <div id="para-item_1" style="display: none;">
+                    <p class="para">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+                </div>
+            </div>
+                
+        
+            <div class="question-item">
+                <div class="wrap">
+                <h1>how much does Netflix cost?</h1>
+                <div class="icon-div" id="show_2">
+                    +
+                </div>
+                </div>
+                <div id="para-item_2" style="display: none;">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div class="question-item">
+                <div class="wrap">
+                <h1>where can i watch?</h1>
+                <div class="icon-div" id="show_3">
+                    +
+                </div>
+                </div>
+                <div id="para-item_3" style="display: none;">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div class="question-item">
+                <div class="wrap">
+                <h1>how do i cancel?</h1>
+                <div class="icon-div" id="show_4">
+                    +
+                </div>
+                </div>
+                <div id="para-item_4" style="display: none;">
+                    <p>hello</p>
+                </div>
+            </div>
+            <div class="question-item">
+                <div class="wrap">
+                <h1>what can i watch on netflix?</h1>
+                <div class="icon-div" id="show_5">
+                    +
+                </div>
+            </div>
+            <div id="para-item_5" style="display: none;">
+                <p>hello</p>
+            </div>
+            </div>
+
+            <div class="question-item">
+                <div class="wrap">
+                <h1>Is netflix good for kids?</h1>
+                <div class="icon-div" id="show_6">
+                    +
+                </div>
+            </div>
+            <div id="para-item_6" style="display: none;">
+                <p>hello</p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- FOOTER SECTION  -->
+    <footer>
+        <div class="footer-call-box">
+            <h2>Questions? Call 000-800-040-1843</h2>
+        </div>
+        <div class="footer-section">
+            <div class="footer-content">
+                <ul>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Investor Relations</li></a>
+                    <a href=""><li>Privacy</li></a>
+                    <a href=""><li>Speed Test</li></a>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Investor Relations</li></a>
+                    <a href=""><li>Privacy</li></a>
+                    <a href=""><li>Speed Test</li></a>
+                </ul>
+        </div>
+            <div class="footer-content">
+                <ul>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Investor Relations</li></a>
+                    <a href=""><li>Privacy</li></a>
+                    <a href=""><li>Speed Test</li></a>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <ul>
+                    <a href=""><li>FAQ</li></a>
+                    <a href=""><li>Investor Relations</li></a>
+                    <a href=""><li>Privacy</li></a>
+                    <a href=""><li>Speed Test</li></a>
+                </ul>
+        </div>
+        </div>
+    </footer>
+</body>
+<script>
+$(function(){
+    $("#show_1").click(()=>{
+        $("#para-item_1").toggle(500);
+    });
+    $("#show_2").click(()=>{
+        $("#para-item_2").toggle(500);
+    })
+})
+</script>
+</html>

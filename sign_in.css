@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.7)),url(./img/netflix_bg_1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: lightblue; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sign-logo{
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid white; */
+}
+.sign-logo h1{
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 80px;
+    padding-left: 80px;
+    color:red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* FORM START FORM HERE */
+.sign-box{
+    width:35%;
+    height:fit-content;
+    margin: auto;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    
+}
+.data-box{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid white; */
+    margin: 30px 40px;
+}
+
+#heading-box{
+    color:white;
+    margin-top: 40px;
+}
+#heading{
+    font-size: 2.3em;
+}
+.data-box input{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+.data-box button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: 600;
+    color:white;
+    background-color: red;
+    border-style: none;
+    cursor: pointer;
+}
+#btn{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.help-box{
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#help{
+    margin-top: 10px;
+    color: gray;
+}
+.check-box input{
+    margin-right: 5px;
+}
+.new-data-box{
+    margin: 40px 40px;
+    width: 80%;
+    height:fit-content;
+    
+}
+.new-data-box .para{
+    font-size: 1.3em;
+    display: inline-block;
+    width: fit-content;
+    color: gray;
+}
+.new-data-box #para{
+    color: white;
+}
+.new-data-box #para:hover{
+    text-decoration: underline;
+}
+
+.new-data-box #para_2{
+    margin-top: 20px;
+    font-size: 1em;
+    color: gray;
+}

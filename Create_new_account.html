@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="./create.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">
+            <h1>Netflix</h1>
+        </div>
+        <div class="account-box">
+            <select name="English" id="language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            <a href="./Sign_In.html" target="_self"><button>Sign In</button></a>
+        </div>
+        </nav>
+        <!--********** REGISTRATION SECTION  HERE ***************-->
+        <div class="Create-account">
+            <form class="form-box" method="" action="" onsubmit="return false">
+                <div class="form-heading-box">
+                    <h1 id="heading-new-acc">Create New Account</h1>
+                </div>
+                <div class="form-container-box">
+                    <label for="">First Name:</label>
+                    <input type="text" id="fname" placeholder="Enter First Name.." />
+                </div>
+                <p id="error_mess_f1" class="para-error"></p>
+
+                <div class="form-container-box">
+                    <label for="">Last Name:</label>
+                    <input type="text" id="lname" placeholder="Enter Last Name.." />
+                </div>
+                <p id="error_mess_last" class="para-error"></p>
+
+                <div class="form-container-box">
+                    <label for="">DOB:</label>
+                    <input type="date" id="date" placeholder="Enter Last Name.." />
+                </div>
+                <p id="error_mess_dob" class="para-error"></p>
+
+                <div class="form-container-box">
+                    <label for="">Contact No:</label>
+                    <input type="tel" id="tel" placeholder="Enter Register Contact No.." />
+                </div>
+                <p id="error_mess_cont" class="para-error"></p>
+
+                <div class="form-container-box">
+                    <label for="">Email Id:</label>
+                    <input type="email" id="email" placeholder="Enter Your email.." />
+                </div>
+                <p id="error_mess_email" class="para-error"></p>
+
+                    <!-- Select country -->
+                    <div class="form-container-box" id="country-box">
+                    <label>Country</label>
+                    <select name="" id="select-items">
+                        <option value="">India</option>
+                        <option value="">Nepal</option>
+                        <option value="">NewYork</option>
+                        <option value="">Califonia(US)</option>
+                        <option value="">China</option>
+                        <option value="">Pakistan</option>
+                        <option value="">Bangaladesh</option>
+                        <option value="">Canda</option>
+                        <option value="">Singapur</option>
+                        <option value="">America(US)</option>
+                 </select>
+                 </div>
+                <!-- password -->
+                <div class="form-container-box">
+                    <label for="">Password:</label>
+                    <input type="password" id="pass" placeholder="Create new password.." />
+                </div>
+                <p id="error_mess_pass" class="para-error"></p>
+                <div class="form-container-box" id="btn-box">
+                    <button id="btn">Register Now</button>
+                </div>
+
+            </form>
+        </div>
+    </header>
+    <script src="./netflix.js">
+
+ 
+    </script>
+</body>
+</html>
