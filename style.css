@@ -352,7 +352,7 @@ header nav .account-box button{
 .question .question-box .question-item{
     width: 100%;
     height: fit-content;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 10px 0px;
     line-height: 80px;
     padding-left: 50px;
